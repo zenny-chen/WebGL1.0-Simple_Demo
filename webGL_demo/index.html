@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello, WebGL</title>
+    <script type="text/javascript" src="canvas.js"></script>
+    
+    <!-- 防止加载favor.ico -->
+    <link rel="icon" href="data:image/ico;base64,aWNv" />
+</head>
+
+<body onload="doGLInit()">
+    <h1>WebGL demo</h1>
+    <button onclick="drawMyGLCanvas()">Draw Content</button>
+    <button onclick="stopDraw()">Stop draw</button>
+    <img id="texture" src = "planesTexture.png" width=1 height=1/>
+    <canvas id="canvas" width="320" height="320"/>
+</body>
+</html>
